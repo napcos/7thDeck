@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(dirname "${BASH_SOURCE[0]}")"
 . deps/functions.sh
 XDG_DESKTOP_DIR=$(xdg-user-dir DESKTOP)
 XDG_DATA_HOME="${XDG_DATA_HOME:=${HOME}/.local/share}"
@@ -10,7 +11,7 @@ echo "" > "7thDeck.log"
 exec > >(tee -ia "7thDeck.log") 2>&1
 
 echo "########################################################################"
-echo "#                            7thDeck v2.5.2                            #"
+echo "#                            7thDeck v2.5.3                            #"
 echo "########################################################################"
 echo "#    This script will:                                                 #"
 echo "#   1. Apply patches to FF7's proton prefix to accomodate 7th Heaven   #"
