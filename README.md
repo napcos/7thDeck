@@ -1,3 +1,8 @@
+# This project has been deprecated in favour of [MateriaForge](https://github.com/dotaxis/MateriaForge-rs)
+MateriaForge has support for the GOG and 2026 releases while also supporting 2013. This repo will be kept online in a read-only state for ease of reference.
+
+---
+
 # 7thDeck
 Installer &amp; launcher for 7th Heaven on SteamOS and other Linux distros
 
